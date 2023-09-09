@@ -1,4 +1,3 @@
-// import About from '@component/components/About'
 import About from "../components/About"
 import ContactMe from "../components/ContactMe"
 import Header from "../components/Header"
@@ -9,9 +8,6 @@ import { PageInfo, Project, Skill } from '../typing'
 import { GetStaticProps } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
-import {fetchPageInfo} from "../utils/fetchPageInfo"
-import { fetchProjects } from "../utils/fetchProjects"
-import { fetchSkills } from "../utils/fetchSkills"
 import { sanityClient } from "@component/sanity"
 import { getPageInfo } from "./api/getPageInfo"
 import { getSkills } from "./api/getSkills"
@@ -69,9 +65,6 @@ export default function Home({ pageInfo, skills, projects}: Props) {
 
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
-  // const skills:Skill[] = await fetchSkills();
-  // const pageInfo:PageInfo = await fetchPageInfo();
-  // const projects:Project[] = await fetchProjects();
 
   const skills:Skill[] = await sanityClient.fetch(getSkills);
   const pageInfo:PageInfo = await sanityClient.fetch(getPageInfo);
