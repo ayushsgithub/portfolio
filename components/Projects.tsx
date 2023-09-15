@@ -31,7 +31,7 @@ export default function Projects  ({projects}: Props)  {
                         <h4 className='text-3xl font-semibold text-center'>
                             <span >Case Study {i + 1} of {projects.length}:</span>{" "} <a className='underline decoration-yellow-200' target='_blank' href={project.linkToBuild}>{project?.title}</a></h4>
                             <div className='flex items-center space-x-2 justify-center'>
-                                {project?.technologies.map((technologoy) => {
+                                {project?.technologies?.map((technologoy) => {
                                     return(
                                         <motion.img
                                         initial={{  opacity: 0, }}
