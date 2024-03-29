@@ -47,6 +47,9 @@ export default function Hero({ pageInfo }: Props) {
           <Link href="#projects">
           <button className='heroButton'>Projects</button>
           </Link>
+          <Link href="resume/AYUSH_KUMAR_RESUME.pdf" download>
+          <button className='heroButton'>Resume</button>
+          </Link>
         </div>
         </div>
     </div>
