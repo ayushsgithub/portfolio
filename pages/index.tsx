@@ -4,6 +4,7 @@ import Header from "../components/Header"
 import Hero from "../components/Hero"
 import Projects from "../components/Projects"
 import Skills from "../components/Skills"
+import Experience from "../components/Experience"
 import { PageInfo, Project, Skill } from '../typing'
 import { GetStaticProps } from 'next'
 import Head from 'next/head'
@@ -40,6 +41,10 @@ export default function Home({ pageInfo, skills, projects}: Props) {
 
       <section id='skills' className='snap-start'>
         <Skills skills={skills} />
+      </section>
+
+      <section id='experience' className='snap-start'>
+        <Experience />
       </section>
       
       <section id='projects' className='snap-start'>
