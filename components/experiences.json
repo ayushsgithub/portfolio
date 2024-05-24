@@ -1,0 +1,105 @@
+{
+  "experiences": [
+    {
+      "id": "1",
+      "name": "Dahlia",
+      "role": "Frontend Developer Intern",
+      "date": ["Dec 2023", "Jan 2024"],
+      "skills": [
+        "nextjs.png",
+        "tailwind.png",
+        "javascript.png",
+        "postgre.png",
+        "express.png",
+        "jira.png",
+        "confluence.png",
+        "git-240.png",
+        "github1.png"
+      ],
+      "points": [
+        "Led the development of an MVP for a personalized matchmaking platform, using a modern tech stack including Next.js, Tailwind CSS, and JavaScript, building a dashboard and actively resolving bugs to improve user experience and page load time by 48%.",
+        "Collaborated with the team of 5 developers to improve the frontend and user interface design.",
+        "Managed projects using Jira for Agile task management and Confluence for streamlined documentation.",
+        "Developed backend functionalities using PostgreSQL and Express.js, enhancing my full-stack proficiency.",
+        "Leveraged agile methodologies to optimize project execution, achieving improvement in project delivery timeliness and fostering a 30% increase in team communication through daily stand-up meetings."
+      ]
+    },
+    {
+      "id": "2",
+      "name": "BTST Solutions",
+      "role": "Frontend Developer Intern",
+      "date": ["Oct 2023", "Dec 2023"],
+      "skills": [
+        "react.png",
+        "storybook.png",
+        "tailwind.png",
+        "nextjs.png",
+        "jira.png",
+        "confluence.png",
+        "prettier.png",
+        "git-240.png",
+        "bitbucket.png"
+      ],
+      "points": [
+        "Improved user experience by implementing the Atomic Design methodology, creating a highly efficient design system with reusable atoms and molecules. This optimization resulted in a remarkable 30% enhancement in page loading.",
+        "Developed more than 25 reusable UI components with Tailwind, ensuring consistent and polished user interface.",
+        "Managed projects using Jira for Agile task management and Confluence for streamlined documentation.",
+        "Leveraged Storybook to streamline UI component development and facilitate efficient testing, maintaining a clean and consistent codebase through automated code formatting with Husky & Prettier."
+      ]
+    },
+    {
+      "id": "3",
+      "name": "HappilyEver",
+      "role": "Web Developer Mentee",
+      "date": ["July 2023"],
+      "skills": ["react.png", "redux-240.png"],
+      "points": [
+        "Built reusable UI components and mentored by senior developers to build a functional chatbot using React Chatbot-Kit and Redux, streamlining user interactions."
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Hacktoberfest 2023",
+      "role": "Open Source Contributor",
+      "date": ["Sept 2023", "Oct 2023"],
+      "skills": ["javascript.png", "nextjs.png", "tailwind.png"],
+      "points": [
+        "Successfully raised 4 (+more) pull requests that got merged within October.",
+        "Built a Tip- Calcultor application using Next.js, JavaScript and Tailwind, enabling users to distribute their bills and tips. Submitted this project on React-Play github repository",
+        "Contibuted to the open-source communities by fixing bugs and improving documentation for various projects."
+      ]
+    },
+    {
+        "id": "5",
+        "name": "Hanko Hacksquad Hackathon",
+        "role": "Participant",
+        "date": ["Oct 2023", "Nov 2023"],
+        "skills": ["nextjs.png", "supabase.png", "tailwind.png", "javascript.png", "git-240.png"],
+        "points": [
+            "Participated with an Image Gallery app with Next.js and Hanko authentication and integrated Supabase as backend database and also wrote a blog post."
+        ]
+    },
+    {
+        "id": "6",
+        "name": "Appwrite Hashnode Hackathon",
+        "role": "Participant",
+        "date": ["June 2023"],
+        "skills": ["appwrite-logo.png", "react.png", "tailwind.png", "javascript.png", "git-240.png"],
+        "points": [
+            "Created a Todo application powered by Appwrite backend and React.js. Additionally, authored a blog post highlighting communication skills alongside the technical intricacies of the project."
+        ]
+    },
+    {
+      "id": "7",
+      "name": "GSSOC 2023",
+      "role": "Open Source Contributor",
+      "date": ["May 2023", "June 2023"],
+      "skills": ["react.png", "nextjs.png", "tailwind.png", "javascript.png", "git-240.png"],
+      "points": [
+        "Developed a responsive website for a local business, increasing their online presence and customer engagement by 40%.",
+        "Collaborated with clients to understand their needs and deliver custom solutions, ensuring high client satisfaction and repeat business.",
+        "Managed project timelines and deliverables, ensuring on-time project completion and client satisfaction."
+      ]
+    }
+  ]
+}
