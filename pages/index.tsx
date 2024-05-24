@@ -13,6 +13,7 @@ import { sanityClient } from "@component/sanity"
 import { getPageInfo } from "./api/getPageInfo"
 import { getSkills } from "./api/getSkills"
 import { getProjects } from "./api/getProjects"
+import { experiences } from "../components/experiences.json"
 
 type Props= {
   pageInfo: PageInfo
