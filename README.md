@@ -2,9 +2,9 @@
 <h2 align="center">PORTFOLIO WEBSITE <br/>
   <a href="https://ayushsport.netlify.app/" target="_blank">ayush's portfolio</a>
 </h2>
-<div align="center">
+<!-- <div align="center">
   <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
+</div> -->
 
 <br/>
 
