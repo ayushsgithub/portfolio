@@ -2,6 +2,25 @@
   "experiences": [
     {
       "id": "1",
+      "name": "ViewAI",
+      "role": "Frontend Development Engineer Intern",
+      "date": ["June 2024", "July 2024"],
+      "skills": [
+        "nextjs.png",
+        "tailwind.png",
+        "javascript.png",
+        "git-240.png",
+        "github1.png"
+      ],
+      "points": [
+        "Enhanced logout functionality and reduced crash reports by 40%, significantly improving overall application stability",
+        "Collaborated in a team of 3 software developers to implement optimization strategies, further boosting application performance.",
+        "Managed projects using Jira for Agile task management and Confluence for streamlined documentation.",
+        "Fixed upgrade modal functionality across 2k, 1080p, and 720p screens, ensuring a consistent user experience on large devices."
+      ]
+    },
+    {
+      "id": "2",
       "name": "Dahlia",
       "role": "Frontend Developer Intern",
       "date": ["Dec 2023", "Jan 2024"],
@@ -25,7 +44,7 @@
       ]
     },
     {
-      "id": "2",
+      "id": "3",
       "name": "BTST Solutions",
       "role": "Frontend Developer Intern",
       "date": ["Oct 2023", "Dec 2023"],
@@ -48,7 +67,7 @@
       ]
     },
     {
-      "id": "3",
+      "id": "4",
       "name": "HappilyEver",
       "role": "Web Developer Mentee",
       "date": ["July 2023"],
@@ -58,7 +77,7 @@
       ]
     },
     {
-      "id": "4",
+      "id": "5",
       "name": "Hacktoberfest 2023",
       "role": "Open Source Contributor",
       "date": ["Sept 2023", "Oct 2023"],
@@ -70,7 +89,7 @@
       ]
     },
     {
-        "id": "5",
+        "id": "6",
         "name": "Hanko Hacksquad Hackathon",
         "role": "Participant",
         "date": ["Oct 2023", "Nov 2023"],
@@ -80,7 +99,7 @@
         ]
     },
     {
-        "id": "6",
+        "id": "7",
         "name": "Appwrite Hashnode Hackathon",
         "role": "Participant",
         "date": ["June 2023"],
@@ -90,7 +109,7 @@
         ]
     },
     {
-      "id": "7",
+      "id": "8",
       "name": "GSSOC 2023",
       "role": "Open Source Contributor",
       "date": ["May 2023", "June 2023"],
