@@ -55,7 +55,10 @@ export default function Home({ pageInfo, skills, projects }: Props) {
           content="Showcasing Ayush Kumar's expertise in Frontend and Software Development through various projects and case studies."
         />
         <meta name="twitter:image" content="/AyushBgLights.png" />
-        <meta name="twitter:site" content="@YourTwitterHandle" />
+        <meta name="twitter:site" content="@ayushisreal" />
+        <meta property="og:image" content="/AyushBgLights.png" />
+        <meta property="og:url" content="https://ayushsport.netlify.app" />
+        <meta property="og:site_name" content="Ayush Kumar Portfolio" />
 
         <link rel="icon" href="/AyushBgLights.png" />
         <link rel="canonical" href="https://ayushsport.netlify.app" />
