@@ -23,34 +23,44 @@ type Props = {
 export default function Home({ pageInfo, skills, projects }: Props) {
   return (
     <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 scroll-smooth">
-        <Head>
-          <title>Portfolio | Ayush Kumar</title>
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta charSet="UTF-8" />
-          <meta
-            name="description"
-            content="Explore the portfolio of Ayush Kumar, a Frontend Developer specializing in React, Next.js, Full Stack and Cloud Native Enthusiast. Discover projects, skills, and experience that demonstrate expertise in building efficient and scalable web applications."
-          />
-          <meta
-            name="keywords"
-            content="Ayush Kumar, Frontend Developer, Full Stack Developer, React, Next.js, JavaScript, Portfolio, Software Developer, Web Development, Projects"
-          />
-          <meta
-            property="og:title"
-            content="Ayush Kumar | Frontend Developer & Software Development Enthusiast"
-          />
-          <meta
-            property="og:description"
-            content="Showcasing Ayush Kumar's expertise in Frontend and Software Development through various projects and case studies."
-          />
-          <meta property="og:image" content="/AyushBgLights.png" />
-          <meta property="og:url" content="https://ayushsport.netlify.app" />
-          <link rel="icon" href="/AyushBgLights.png" />
-          <link rel="canonical" href="https://ayushsport.netlify.app" />
-          <link rel="canonical" href="https://ayushsport.netlify.app" />
+      <Head>
+        <title>Portfolio | Ayush Kumar</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charSet="UTF-8" />
+        <meta
+          name="description"
+          content="Explore the portfolio of Ayush Kumar, a Frontend Developer specializing in React, Next.js, Full Stack and Cloud Native Enthusiast. Discover projects, skills, and experience that demonstrate expertise in building efficient and scalable web applications."
+        />
+        <meta
+          name="keywords"
+          content="Ayush Kumar, Frontend Developer, Full Stack Developer, React, Next.js, JavaScript, Portfolio, Software Developer, Web Development, Projects"
+        />
+        <meta
+          property="og:title"
+          content="Ayush Kumar | Frontend Developer & Software Development Enthusiast"
+        />
+        <meta
+          property="og:description"
+          content="Showcasing Ayush Kumar's expertise in Frontend and Software Development through various projects and case studies."
+        />
+        <meta property="og:image" content="/AyushBgLights.png" />
+        <meta property="og:url" content="https://ayushsport.netlify.app" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Ayush Kumar | Frontend Developer & Software Development Enthusiast"
+        />
+        <meta
+          name="twitter:description"
+          content="Showcasing Ayush Kumar's expertise in Frontend and Software Development through various projects and case studies."
+        />
+        <meta name="twitter:image" content="/AyushBgLights.png" />
+        <meta name="twitter:site" content="@YourTwitterHandle" />
 
-        </Head>
-
+        <link rel="icon" href="/AyushBgLights.png" />
+        <link rel="canonical" href="https://ayushsport.netlify.app" />
+        <link rel="canonical" href="https://ayushsport.netlify.app" />
+      </Head>
 
       <Header />
 
