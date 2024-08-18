@@ -13,7 +13,6 @@ import { sanityClient } from "@component/sanity";
 import { getPageInfo } from "./api/getPageInfo";
 import { getSkills } from "./api/getSkills";
 import { getProjects } from "./api/getProjects";
-import { experiences } from "../components/experiences.json";
 
 type Props = {
   pageInfo: PageInfo;
@@ -24,7 +23,6 @@ type Props = {
 export default function Home({ pageInfo, skills, projects }: Props) {
   return (
     <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 scroll-smooth">
-      <Head>
         <Head>
           <title>Portfolio | Ayush Kumar</title>
           <meta
@@ -43,11 +41,11 @@ export default function Home({ pageInfo, skills, projects }: Props) {
             property="og:description"
             content="Showcasing Ayush Kumar's expertise in Frontend and Software Development through various projects and case studies."
           />
-          <meta property="og:image" content="/AyushBridge.png" />
+          <meta property="og:image" content="/AyushBgLights.png" />
           <meta property="og:url" content="https://ayushsport.netlify.app" />
           <link rel="icon" href="/AyushBgLights.png" />
         </Head>
-      </Head>
+
 
       <Header />
 
