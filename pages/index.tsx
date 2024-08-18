@@ -25,6 +25,8 @@ export default function Home({ pageInfo, skills, projects }: Props) {
     <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 scroll-smooth">
         <Head>
           <title>Portfolio | Ayush Kumar</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta charSet="UTF-8" />
           <meta
             name="description"
             content="Explore the portfolio of Ayush Kumar, a Frontend Developer specializing in React, Next.js, Full Stack and Cloud Native Enthusiast. Discover projects, skills, and experience that demonstrate expertise in building efficient and scalable web applications."
@@ -44,6 +46,9 @@ export default function Home({ pageInfo, skills, projects }: Props) {
           <meta property="og:image" content="/AyushBgLights.png" />
           <meta property="og:url" content="https://ayushsport.netlify.app" />
           <link rel="icon" href="/AyushBgLights.png" />
+          <link rel="canonical" href="https://ayushsport.netlify.app" />
+          <link rel="canonical" href="https://ayushsport.netlify.app" />
+
         </Head>
 
 
