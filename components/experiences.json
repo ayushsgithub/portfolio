@@ -2,6 +2,22 @@
   "experiences": [
     {
       "id": "1",
+      "name": "TaxEve",
+      "role": "Frontend Developer",
+      "date": ["July 2024", "August 2024"],
+      "skills": [
+        "react.png",
+        "tailwind.png",
+        "javascript.png",
+        "git-240.png",
+        "typescript.png"
+      ],
+      "points": [
+        "Engineered 1099-C, 1099-G and 1099-PATR forms for IRS tax submission using React.js, javascript, typescript and tailwindcss, improving operational efficiency and ensuring accurate tax filings for the business."
+      ]
+    },
+    {
+      "id": "2",
       "name": "ViewAI",
       "role": "Frontend Development Engineer Intern",
       "date": ["June 2024", "July 2024"],
@@ -20,7 +36,7 @@
       ]
     },
     {
-      "id": "2",
+      "id": "3",
       "name": "Dahlia",
       "role": "Frontend Developer Intern",
       "date": ["Dec 2023", "Jan 2024"],
@@ -44,7 +60,7 @@
       ]
     },
     {
-      "id": "3",
+      "id": "4",
       "name": "BTST Solutions",
       "role": "Frontend Developer Intern",
       "date": ["Oct 2023", "Dec 2023"],
@@ -67,7 +83,7 @@
       ]
     },
     {
-      "id": "4",
+      "id": "5",
       "name": "HappilyEver",
       "role": "Web Developer Mentee",
       "date": ["July 2023"],
@@ -77,7 +93,7 @@
       ]
     },
     {
-      "id": "5",
+      "id": "6",
       "name": "Hacktoberfest 2023",
       "role": "Open Source Contributor",
       "date": ["Sept 2023", "Oct 2023"],
@@ -89,7 +105,7 @@
       ]
     },
     {
-        "id": "6",
+        "id": "7",
         "name": "Hanko Hacksquad Hackathon",
         "role": "Participant",
         "date": ["Oct 2023", "Nov 2023"],
@@ -99,7 +115,7 @@
         ]
     },
     {
-        "id": "7",
+        "id": "8",
         "name": "Appwrite Hashnode Hackathon",
         "role": "Participant",
         "date": ["June 2023"],
@@ -109,7 +125,7 @@
         ]
     },
     {
-      "id": "8",
+      "id": "9",
       "name": "GSSOC 2023",
       "role": "Open Source Contributor",
       "date": ["May 2023", "June 2023"],
