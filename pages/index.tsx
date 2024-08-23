@@ -45,11 +45,11 @@ export default function Home({ pageInfo, skills, projects }: Props) {
         />
         <meta
           property="og:image"
-          content="https://ayushsport.netlify.app/AyushBgLights.png"
+          content="/portfolioImages/portfolio_desktop.png"
         />
         <meta property="og:url" content="https://ayushsport.netlify.app" />
-        <meta property="og:site_name" content="Ayush Portfolio" />
-        <meta name="twitter:card" content="https://github.com/ayushsgithub/portfolio/blob/main/public/porfolioImages/portfolio_desktop.png" />
+        <meta property="og:site_name" content="Ayush's Portfolio" />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
           content="Ayush | Frontend Developer & Software Development Enthusiast"
@@ -60,13 +60,13 @@ export default function Home({ pageInfo, skills, projects }: Props) {
         />
         <meta
           name="twitter:image"
-          content="https://github.com/ayushsgithub/portfolio/blob/main/public/porfolioImages/portfolio_desktop.png"
+          content="/portfolioImages/portfolio_desktop.png"
         />
         <meta name="twitter:site" content="@ayushisreal" />
 
         <link
           rel="icon"
-          href="/AyushBgLights.png"
+          href="AyushBgLights.png"
         />
         <link rel="canonical" href="https://ayushsport.netlify.app" />
       </Head>
