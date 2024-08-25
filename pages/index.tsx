@@ -15,9 +15,9 @@ import { getSkills } from "./api/getSkills";
 import { getProjects } from "./api/getProjects";
 
 type Props = {
-  pageInfo: PageInfo;
-  projects: Project[];
   skills: Skill[];
+  pageInfo: PageInfo | null;
+  projects: Project[];
 };
 
 export default function Home({ pageInfo, skills, projects }: Props) {
@@ -64,21 +64,18 @@ export default function Home({ pageInfo, skills, projects }: Props) {
         />
         <meta name="twitter:site" content="@ayushisreal" />
 
-        <link
-          rel="icon"
-          href="AyushBgLights.png"
-        />
+        <link rel="icon" href="AyushBgLights.png" />
         <link rel="canonical" href="https://ayushsport.netlify.app" />
       </Head>
 
       <Header />
 
       <section id="hero" className="snap-start">
-        <Hero pageInfo={pageInfo} />
+        {pageInfo && <Hero pageInfo={pageInfo} />}
       </section>
 
       <section id="about" className="snap-center">
-        <About pageInfo={pageInfo} />
+        {pageInfo && <About pageInfo={pageInfo} />}
       </section>
 
       <section id="skills" className="snap-start">
@@ -113,16 +110,28 @@ export default function Home({ pageInfo, skills, projects }: Props) {
 }
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
-  const skills: Skill[] = await sanityClient.fetch(getSkills);
-  const pageInfo: PageInfo = await sanityClient.fetch(getPageInfo);
-  const projects: Project[] = await sanityClient.fetch(getProjects);
+  try {
+    const skills: Skill[] = await sanityClient.fetch(getSkills);
+    const pageInfo: PageInfo = await sanityClient.fetch(getPageInfo);
+    const projects: Project[] = await sanityClient.fetch(getProjects);
 
-  return {
-    props: {
-      skills,
-      pageInfo,
-      projects,
-    },
-    revalidate: 20,
-  };
+    return {
+      props: {
+        skills,
+        pageInfo,
+        projects,
+      },
+      revalidate: 20,
+    };
+  } catch (error) {
+    console.error("Error fetching data:", error);
+    return {
+      props: {
+        skills: [],
+        pageInfo: null,
+        projects: [],
+      },
+      revalidate: 20,
+    };
+  }
 };
