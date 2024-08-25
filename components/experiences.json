@@ -94,6 +94,16 @@
     },
     {
       "id": "6",
+      "name": "Hashnode",
+      "role": "Technical Writer",
+      "date": ["Oct 2022", "Dec 2023"],
+      "skills": ["docker.png", "git-240.png"],
+      "points": [
+        "lorem  ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim."
+      ]
+    },
+    {
+      "id": "7",
       "name": "Hacktoberfest 2023",
       "role": "Open Source Contributor",
       "date": ["Sept 2023", "Oct 2023"],
@@ -105,31 +115,49 @@
       ]
     },
     {
-        "id": "7",
-        "name": "Hanko Hacksquad Hackathon",
-        "role": "Participant",
-        "date": ["Oct 2023", "Nov 2023"],
-        "skills": ["nextjs.png", "supabase.png", "tailwind.png", "javascript.png", "git-240.png"],
-        "points": [
-            "Participated with an Image Gallery app with Next.js and Hanko authentication and integrated Supabase as backend database and also wrote a blog post."
-        ]
-    },
-    {
-        "id": "8",
-        "name": "Appwrite Hashnode Hackathon",
-        "role": "Participant",
-        "date": ["June 2023"],
-        "skills": ["appwrite-logo.png", "react.png", "tailwind.png", "javascript.png", "git-240.png"],
-        "points": [
-            "Created a Todo application powered by Appwrite backend and React.js. Additionally, authored a blog post highlighting communication skills alongside the technical intricacies of the project."
-        ]
+      "id": "8",
+      "name": "Hanko Hacksquad Hackathon",
+      "role": "Participant",
+      "date": ["Oct 2023", "Nov 2023"],
+      "skills": [
+        "nextjs.png",
+        "supabase.png",
+        "tailwind.png",
+        "javascript.png",
+        "git-240.png"
+      ],
+      "points": [
+        "Participated with an Image Gallery app with Next.js and Hanko authentication and integrated Supabase as backend database and also wrote a blog post."
+      ]
     },
     {
       "id": "9",
+      "name": "Appwrite Hashnode Hackathon",
+      "role": "Participant",
+      "date": ["June 2023"],
+      "skills": [
+        "appwrite-logo.png",
+        "react.png",
+        "tailwind.png",
+        "javascript.png",
+        "git-240.png"
+      ],
+      "points": [
+        "Created a Todo application powered by Appwrite backend and React.js. Additionally, authored a blog post highlighting communication skills alongside the technical intricacies of the project."
+      ]
+    },
+    {
+      "id": "10",
       "name": "GSSOC 2023",
       "role": "Open Source Contributor",
       "date": ["May 2023", "June 2023"],
-      "skills": ["react.png", "nextjs.png", "tailwind.png", "javascript.png", "git-240.png"],
+      "skills": [
+        "react.png",
+        "nextjs.png",
+        "tailwind.png",
+        "javascript.png",
+        "git-240.png"
+      ],
       "points": [
         "Developed a responsive website for a local business, increasing their online presence and customer engagement by 40%.",
         "Collaborated with clients to understand their needs and deliver custom solutions, ensuring high client satisfaction and repeat business.",
