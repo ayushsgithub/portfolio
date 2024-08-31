@@ -50,9 +50,9 @@ export default function Hero({ pageInfo }: Props) {
           <Link href="#projects">
           <button className='heroButton'>Projects</button>
           </Link>
-          <Link href="/resume/AYUSH_KUMAR_RESUME.pdf" target='_blank' rel='noopener noreferrer'>
+          {/* <Link href="/resume/AYUSH_KUMAR_RESUME.pdf" target='_blank' rel='noopener noreferrer'>
           <button className='heroButton'>Resume</button>
-          </Link>
+          </Link> */}
         </div>
         </div>
     </div>
